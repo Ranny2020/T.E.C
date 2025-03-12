@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tikar Emirate</title>
+    <link rel="stylesheet" href="tourism.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TIKAU EMIRATE</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html"> HOME </a></li>
+              <li><a href="#about"> ABOUT </a></li>
+              <li><a href="#contact"> CONTACT </a></li>
+          </ul>
+      </nav>
+  </header>
+  <main>
+      <section id="home">
+          <h1>Welcome to our Tourist Destination</h1>
+          <p>Explore the beauty of our city</p>
+          <div class="video-container">
+              <video id="tourVideo" width="640" height="360" controls>
+                  <source src="newimage/gujam.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+            </div>
+              <button id="likeButton">Like (<span id="likeCount">0</span>)</button>
+              <div class="comments-section">
+                  <h3>Comments</h3>
+                  <div id="commentsList"></div>
+                  <input type="text" id="commentInput" placeholder="Add a comment..." />
+                  <button id="commentButton">Comment</button>
+              </div>
+          </div>
+      </section>
+      <section id="uploadImages">
+          <h2>Share Your Tour Images</h2>
+          <input type="file" id="imageUpload" accept="image/*" />
+          <button id="uploadButton">Upload Image</button>
+          <div id="uploadedImages"></div>
+      </section>
+      <section id="about">
+        <h2>GUJAM CAVE: A HAVEN OF RICH HISTORY AND CULTURAL DIVERSITY</h2>
+        <p>
+          Bagau, also known as Gujam, is a village with a rich history. The name Gujam originates from the Karai-Karai
+          Language, meaning "big hole" or "deep well." The people of Bagau originated from Jalam village and later merged
+          with other Karai-Karai people from Dafchi village. Together, they formed a large settlement called Ganuwar Gujam,
+          now located in Pakarau Ward, Nangere Local Government Area, Yobe State.
+          <br>
+          Gujam Village was a prominent town around 1750 AD, before the arrival of European colonizers in Nigeria.
+          The Kogon Gujam, a large hole or well was dug around 1750 AD by the people of Bagau as a result of wars 
+          between the Karai-Karai people and the Kanem-Borno Empire. The Cave served as a hiding place and a means of 
+          defense against enemies.
+          <br>
+          Years later, the cave was taken over by the Kuraye people, who made it their home. According to historical accounts,
+          the Kuraye people lived in the Cave for many years without harming the people of Gujam village or their aminals.
+          The reason for the Kuraye people's return to the cave is attributed to the change of name from Ndala Bagau to Ndala
+          Gujam, meaning "The Cave of Gujam". The Cave is remarkably deep, allowing one to walk for kilometers
+          ungerground, and its end remains unknown. Attempts were made to explore the cave during the colonial era but are 
+          unsuccessful.
+          <br>
+          In 2024, the Nangere Local Government Area, under which Gujam village falls, initiated a survey of the Cave with the
+          help of experts.          
+          <br />
+          <b
+            >Do try and Pay a visit to Nangere and "Explore the Uncharted", Its
+            worth the Tour!!.</b
+          >
+
+          <img
+            src="newimage/gujam.jpg"
+            alt="image of Gujam Cave"
+            class="expandable-image"
+          />
+          <p class="image"> The Entrance of the Cave. </p>
+          <img src="newimage/gujam1.jpg" alt="image of gujam cave" class="expandable-image">
+          <p class="image"> People Sitted at the Entrance of the cave</p>
+          <img src="newimage/gujam2.jpg" alt="image of gujam cave" class="expandable-image">
+          <p class="image">The Inside View of the Cave </p>
+          <img src="newimage/gujam3.jpg" alt="image of gujam cave" class="expandable-image">
+          <p class="image"> The Inside View of the Cave </p>
+          <img
+            src="newimage/gujam4.jpg"
+            alt="image of Gujam Cave"
+            class="expandable-image"
+          />
+          <p class="image"> The Surroundings of the Cave. </p>
+          <img src="newimage/gujam5.jpg" alt="image of gujam cave" class="expandable-image">
+          <p class="image"> The Outside View of the Cave </p>
+          <img src="newimage/gujam6.jpg" alt="image of gujam cave" class="expandable-image">
+          <p class="image"> The Second Entrance into the Cave </p>
+          <img src="newimage/gujam7.jpg" alt="image of the cave" class="expandable-image">
+          <p class="image">The Outside View of the Cave </p>
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+          <input type="text" placeholder="Name" />
+          <br>
+          <br>
+          <input type="email" placeholder="Email" />
+          <br>
+          <br>
+          <textarea placeholder="Message"></textarea>
+          <br>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <div class="image-overlay" style="display: none">
+      <img src="" alt="" class="expanded-image" />
+      <span class="close-overlay">&times;</span>
+    </div>
+    <footer>
+      <p class="fo">&copy; 2024 TIKAU EMIRATE. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="scriptt.js"></script>
+  </body>
+</html>
